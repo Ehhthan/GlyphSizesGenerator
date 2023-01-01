@@ -1,0 +1,5 @@
+# Project exclude paths
+/out/
+GlyphSizesGenerator.iml
+.idea
+glyph_sizes.bin
