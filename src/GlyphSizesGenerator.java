@@ -13,7 +13,7 @@ public class GlyphSizesGenerator {
         final int rows = 16, columns = 16, tileHeight = 16, tileWidth = 16;
 
         File file = new File("glyph_sizes.bin");
-        if (file.exists());
+        if (file.exists())
             file.delete();
 
         RandomAccessFile accessFile = new RandomAccessFile(file, "rw");
