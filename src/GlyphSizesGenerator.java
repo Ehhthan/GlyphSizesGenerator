@@ -43,8 +43,6 @@ public class GlyphSizesGenerator {
                                 int color = sub.getRGB(x, y);
                                 int alpha = (color >> 24) & 0xFF;
                                 if (alpha != 0) {
-                                    // This sets the edges to the current coordinate
-                                    // if this pixel lies outside the current boundaries
                                     if (minX == -1 || x < minX)
                                         minX = x;
 
